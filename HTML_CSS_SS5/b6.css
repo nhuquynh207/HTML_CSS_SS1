@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    color: #1e90ff;
+}
+.infor:hover{
+    background-color: #e6f7ff;
+}

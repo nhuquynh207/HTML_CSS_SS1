@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.title {
+    text-align: center;
+    color: #1e90ff;
+    margin-bottom: 20px;
+}
+
+.feedback-form {
+    width: 360px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.feedback-form label {
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #1e90ff;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.feedback-form textarea {
+    resize: none;
+    height: 90px;
+}
+
+.feedback-form input[type="submit"] {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color: #0b70d1;
+}
+
