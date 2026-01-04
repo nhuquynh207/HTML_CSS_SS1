@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f9ff;
+    color:#0f172a
+}
+.slogan{
+
+    background-color: #0284c7;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.heading{
+    color:#0369a1;
+    text-transform: uppercase;
+}
+.services ul{
+    cursor: pointer;
+}
+.list-services{
+    list-style: none;
+    padding: 0;
+}
+.services li::before { 
+    content:"🦷";
+    list-style: none;
+
+}
+.services li:hover{
+    color: #0369a1;
+}
+
+
